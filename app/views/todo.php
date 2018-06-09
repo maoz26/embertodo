@@ -80,7 +80,6 @@
     <!-- controllers -->
     <script src="/assets/js/controllers/todos_controller.js"></script>
     <script src="/assets/js/controllers/todo_controller.js"></script>
-
 </body>
 
 </html>
