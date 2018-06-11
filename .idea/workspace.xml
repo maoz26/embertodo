@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1146f46-1e00-438d-aaf3-de6e5a3b3d28" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/app/controllers/TodoController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/Todo.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/ApiController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/ApiController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/todo.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/todo.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/assets/js/application.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/js/application.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/controllers/todos_controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/js/controllers/todos_controller.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/assets/js/models/todo.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/js/models/todo.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,11 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="todo.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="todo.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/todo.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="71" selection-start-line="7" selection-start-column="71" selection-end-line="7" selection-end-column="71" />
+            <state relative-caret-position="224">
+              <caret line="37" column="87" selection-start-line="37" selection-start-column="87" selection-end-line="37" selection-end-column="87" />
             </state>
           </provider>
         </entry>
@@ -36,16 +36,7 @@
         <entry file="file://$PROJECT_DIR$/public/assets/js/models/todo.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
-              <caret line="21" column="2" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ApiController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/ApiController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -53,11 +44,26 @@
       <file leaf-file-name="application.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/assets/js/application.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-              <folding>
-                <marker date="1528676275131" expanded="true" signature="191:314" ph="..." />
-              </folding>
+            <state relative-caret-position="34">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="todo_controller.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/assets/js/controllers/todo_controller.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="todos_controller.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/assets/js/controllers/todos_controller.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="291">
+              <caret line="59" column="10" lean-forward="true" selection-start-line="59" selection-start-column="10" selection-end-line="59" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -65,8 +71,8 @@
       <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="3" lean-forward="true" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+            <state relative-caret-position="289">
+              <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
               <folding>
                 <element signature="e#7#392#0#PHP" expanded="true" />
               </folding>
@@ -118,7 +124,6 @@
         <option value="$PROJECT_DIR$/public/assets/js/views/edit_todo_view.js" />
         <option value="$PROJECT_DIR$/public/assets/js/controllers/todo_controller.js" />
         <option value="$PROJECT_DIR$/public/assets/js/router.js" />
-        <option value="$PROJECT_DIR$/public/assets/js/controllers/todos_controller.js" />
         <option value="$PROJECT_DIR$/public/assets/css/style.css" />
         <option value="$PROJECT_DIR$/app/database/migrations/2018_06_09_125519_create_todos_table.php" />
         <option value="$PROJECT_DIR$/app/config/database.php" />
@@ -126,12 +131,13 @@
         <option value="$PROJECT_DIR$/app/database/migrations/2018_06_09_140009_create_todos_table.php" />
         <option value="$PROJECT_DIR$/app/database/seeds/DatabaseSeeder.php" />
         <option value="$PROJECT_DIR$/app/models/Todo.php" />
-        <option value="$PROJECT_DIR$/app/routes.php" />
         <option value="$PROJECT_DIR$/app/controllers/TodoController.php" />
         <option value="$PROJECT_DIR$/app/controllers/ApiController.php" />
         <option value="$PROJECT_DIR$/public/assets/js/models/todo.js" />
         <option value="$PROJECT_DIR$/public/assets/js/application.js" />
+        <option value="$PROJECT_DIR$/app/routes.php" />
         <option value="$PROJECT_DIR$/app/views/todo.php" />
+        <option value="$PROJECT_DIR$/public/assets/js/controllers/todos_controller.js" />
       </list>
     </option>
   </component>
@@ -329,7 +335,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21803000" />
+    <option name="totallyTimeSpent" value="23425000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -658,6 +664,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/BaseController.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-13" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/js/router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/Todo.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -668,59 +689,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/BaseController.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/HomeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-13" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/js/controllers/todos_controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-166">
-          <caret line="37" column="36" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/js/router.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/js/controllers/todo_controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/ApiController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/js/application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-          <folding>
-            <marker date="1528676275131" expanded="true" signature="191:314" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="3" lean-forward="true" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
-          <folding>
-            <element signature="e#7#392#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="306">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -731,17 +703,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+          <folding>
+            <element signature="e#7#392#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/js/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/js/controllers/todo_controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/assets/js/models/todo.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
-          <caret line="21" column="2" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/todo.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="71" selection-start-line="7" selection-start-column="71" selection-end-line="7" selection-end-column="71" />
+        <state relative-caret-position="224">
+          <caret line="37" column="87" selection-start-line="37" selection-start-column="87" selection-end-line="37" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/js/controllers/todos_controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="59" column="10" lean-forward="true" selection-start-line="59" selection-start-column="10" selection-end-line="59" selection-end-column="10" />
         </state>
       </provider>
     </entry>

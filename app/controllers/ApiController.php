@@ -9,10 +9,11 @@ class ApiController extends \BaseController {
 	 */
 	public function index()
 	{
-        $todos = DB::table('todos')->get();
+//	    return 'hello';
+        $todoArray = DB::table('todos')->get();
         return Response::json(array(
             'error' => false,
-            'todos' => $todos.$todos),
+            'todos' => $todoArray),
             200
         );
 	}

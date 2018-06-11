@@ -52,6 +52,10 @@ Todos.TodosController = Ember.ArrayController.extend({
     }.property('@each.isCompleted'),
 
 
+    allTask: function() {
+        return this.get('length') ;
+    }.property('@each.isCompleted'),
+
     /** number of todos whose isCompleted */
     remaining: function() {
         return this.filterBy('isCompleted', false).get('length');

@@ -35,13 +35,13 @@
                 </span>
                 <ul id="filters">
                     <li>
-                      {{#link-to "todos.index" activeClass="selected"}}All{{/link-to}}
+                      {{#link-to "todos.index" activeClass="selected"}}סה״כ {{allTask}} {{/link-to}}
                     </li>
                     <li>
-                      {{#link-to "todos.active" activeClass="selected"}}Active{{/link-to}}
+                      {{#link-to "todos.active" activeClass="selected"}}לסיום {{remaining}}{{/link-to}}
                     </li>
                     <li>
-                      {{#link-to "todos.completed" activeClass="selected"}}Completed{{/link-to}}
+                      {{#link-to "todos.completed" activeClass="selected"}}הושלמו {{completed}} {{/link-to}}
                     </li>
                 </ul>
                 {{#if hasCompleted}}

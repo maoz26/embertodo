@@ -15,7 +15,7 @@
 Route::get('/', 'TodoController@getTodos');
 
 
-/** API routes */
+/** API v1 routes */
 Route::group(array('prefix' => 'api/v1'), function()
 {
     Route::resource('todos', 'ApiController');

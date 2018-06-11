@@ -1,12 +1,14 @@
 window.Todos = Ember.Application.create();
 
+/** stub adapter */
 // Todos.ApplicationAdapter = DS.FixtureAdapter.extend();
 
+/** local storage adapter */
 Todos.ApplicationAdapter = DS.LSAdapter.extend({
     namespace: 'todos-emberjs'
 });
 
-// Todos.ApplicationAdapter = DS.RESTAdapter.extend({
-//     host: 'https://localhost:8000',
-//     namespace: 'api/v1'
-// });
+/** rest api adapter */
+Todos.ApplicationAdapter = DS.RESTAdapter.extend({
+    namespace: 'api/v1'
+});
