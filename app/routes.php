@@ -11,7 +11,12 @@
 |
 */
 
-Route::get('/', function()
+/** application routes */
+Route::get('/', 'TodoController@getTodos');
+
+
+/** API routes */
+Route::group(array('prefix' => 'api/v1'), function()
 {
-	return View::make('todo');
+    Route::resource('todos', 'ApiController');
 });

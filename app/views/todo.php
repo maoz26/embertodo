@@ -4,6 +4,12 @@
     <meta charset="utf-8">
     <title>Ember.js • TodoMVC</title>
     <link rel="stylesheet" href="/assets/css/style.css">
+    <!--
+    <script type="text/javascript">
+        var arr = <?php echo json_encode($todos, JSON_PRETTY_PRINT) ?>;
+        console.log(arr);
+    </script>
+    -->
 </head>
 
 <body>
