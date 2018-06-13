@@ -7,9 +7,6 @@
     <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 
-<!--
-
--->
 <body>
     <!-- handlebars -->
     <script type="text/x-handlebars" data-template-name="todos">
@@ -78,6 +75,12 @@
     <!-- controllers -->
     <script src="/assets/js/controllers/todos_controller.js"></script>
     <script src="/assets/js/controllers/todo_controller.js"></script>
+    <script>
+        $( window ).unload(function() {
+            alert('here');
+            return "Handler for .unload() called.";
+        });
+    </script>
 </body>
 
 </html>
