@@ -75,12 +75,6 @@
     <!-- controllers -->
     <script src="/assets/js/controllers/todos_controller.js"></script>
     <script src="/assets/js/controllers/todo_controller.js"></script>
-    <script>
-        $( window ).unload(function() {
-            alert('here');
-            return "Handler for .unload() called.";
-        });
-    </script>
 </body>
 
 </html>
