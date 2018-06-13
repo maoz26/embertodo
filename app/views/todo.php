@@ -2,59 +2,51 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ember.js • TodoMVC</title>
     <link rel="stylesheet" href="/assets/css/style.css">
-    <!--
-    <script type="text/javascript">
-        var arr = <?php echo json_encode($todos, JSON_PRETTY_PRINT) ?>;
-        console.log(arr);
-    </script>
-    -->
 </head>
 
+<!--
+
+-->
 <body>
     <!-- handlebars -->
     <script type="text/x-handlebars" data-template-name="todos">
-        <section id="todoapp">
-            <header id="header">
-                <h1></h1>
+        <div id="app">
+            <header class="headline">
+                <h1>משימות
+                    <button class="addTask">
+                        <span>+</span>
+                    </button>
+                </h1>
+            </header>
+            <section class="newTask">
                 {{input type="text"
                         id="new-todo"
                         placeholder="הוספת משימה"
                         value=newTitle
                         action="createTodo"}}
-            </header>
-
-             <section id="main">
+            </section>
+            <section id="main">
               {{outlet}}
               {{input type="checkbox" id="toggle-all" checked=allAreDone}}
             </section>
             <footer id="footer">
-                <span id="todo-count">
-                    <strong>{{remaining}}</strong> {{inflection}} left
-                </span>
                 <ul id="filters">
-                    <li>
-                      {{#link-to "todos.index" activeClass="selected"}}סה״כ {{allTask}} {{/link-to}}
-                    </li>
                     <li>
                       {{#link-to "todos.active" activeClass="selected"}}לסיום {{remaining}}{{/link-to}}
                     </li>
                     <li>
                       {{#link-to "todos.completed" activeClass="selected"}}הושלמו {{completed}} {{/link-to}}
                     </li>
+                    <li>
+                      {{#link-to "todos.index" activeClass="selected"}}סה״כ {{allTask}} {{/link-to}}
+                    </li>
                 </ul>
-                {{#if hasCompleted}}
-                <button id="clear-completed" {{action "clearCompleted"}}>
-                    Clear completed ({{completed}})
-                </button>
-                {{/if}}
             </footer>
-        </section>
+        </div>
 
-        <footer id="info">
-            <p>Double-click to edit a todo</p>
-        </footer>
     </script>
     <script type="text/x-handlebars" data-template-name="todos/index">
       <ul id="todo-list">

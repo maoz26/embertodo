@@ -14,6 +14,7 @@ Todos.TodoController = Ember.ObjectController.extend({
         },
         removeTodo: function () {
             var todo = this.get('model');
+            // console.log(todo._data);
             todo.deleteRecord();
             todo.save();
         }

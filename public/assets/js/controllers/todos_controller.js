@@ -25,7 +25,6 @@ Todos.TodosController = Ember.ArrayController.extend({
         }
     },
 
-
     /** check if all the todos are done */
     allAreDone: function(key, value) {
         if (value === undefined) {
